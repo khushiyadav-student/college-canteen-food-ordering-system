@@ -30,6 +30,7 @@ Khushi Yadav
 - Check food prices
 - Place food orders
 - View order details
+- Basic CI workflow configured for the College Canteen project.
 
 ## Technology Stack
 
