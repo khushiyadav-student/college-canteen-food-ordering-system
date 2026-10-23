@@ -24,3 +24,15 @@ Academic Project – MCA First Semester
 Author
 
 Khushi Yadav
+## Project Features
+
+- View available canteen food items
+- Check food prices
+- Place food orders
+- View order details
+
+## Technology Stack
+
+- HTML
+- CSS
+- JavaScript
