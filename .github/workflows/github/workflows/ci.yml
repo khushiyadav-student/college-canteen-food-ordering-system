@@ -1,0 +1,22 @@
+
+name: College Canteen CI
+
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check repository files
+        run: |
+          echo "College Canteen project CI started"
+          test -f README.md
+          echo "README file found"
+          echo "CI checks passed"
